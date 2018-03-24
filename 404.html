@@ -1,0 +1,31 @@
+---
+layout: default
+title: 404
+permalink: /404.html
+---
+
+<h1>404</h1>
+<p>We're trying to figure this out...</p>
+<script>
+	let pathname = location.pathname;
+	if(pathname.substr(pathname.length - 5) == ".html")
+	{
+		pathname = pathname.substr(0, pathname.length - 5);
+	}
+	if(pathname.substr(pathname.length - 1) != "/")
+	{
+		pathname += "/";
+	}
+	if(pathname.split("/").length > 3)
+	{
+		pathname = "/" + pathname.split("/")[pathname.split("/").length - 2] + "/";
+	}
+	if(pathname == location.pathname)
+	{
+		location.pathname = "/";
+	}
+	else
+	{
+		location.pathname = pathname;
+	}
+</script>

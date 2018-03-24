@@ -1,0 +1,28 @@
+name: fack.news
+description: Reliable and independent news since 1982.
+avatar: https://fack.news/favicon.ico
+footer-links:
+  email: contact@fack.news
+  github: timmyrs/fack.news
+  rss: yes
+  twitter: timsepckhals
+disqus: facknews
+google_analytics: UA-62762409-26
+url: https://fack.news
+baseurl: ""
+permalink: /:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+sass:
+  style: :expanded
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
