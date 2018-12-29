@@ -7,7 +7,6 @@ footer-links:
   rss: yes
   twitter: timspeckhals
 disqus: facknews
-google_analytics: UA-62762409-26
 url: https://fack.news
 baseurl: ""
 permalink: /:title/
