@@ -1,11 +1,6 @@
 name: fack.news
 description: Reliable and independent news since 1982.
 avatar: https://fack.news/favicon.ico
-footer-links:
-  email: contact@fack.news
-  github: timmyrs/fack.news
-  rss: yes
-  twitter: timspeckhals
 disqus: facknews
 url: https://fack.news
 baseurl: ""
